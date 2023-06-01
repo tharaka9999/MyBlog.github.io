@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is my personal website">
+    <meta name="author" content="Braydon Wang">
+    <meta name="keywords" content="HTML, Personal, Website, Braydon, Wang, Computer, Programming">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href=style.css />
+    <link rel="icon" href="images/logo.jpg" type="image/png">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>My Blog</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GJVNS5F1BT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-GJVNS5F1BT');
+    </script>
+</head>
+
+<body>
+  <div id="progressbar"></div>
+  <div id="scrollPath"></div>
+  <section class="showcase" id="home">
+    <header>
+      <div class="wrapper" id="navigation">
+        <nav>
+          <a class="icon" href="./index.html">
+            <img src="images/dp.png" alt="" width="50" height="50">
+          </a>
+          <a class="navbar" href="#about">About</a>
+          <a class="navbar" href="#projects">Projects</a>
+          <a class="navbar" href="#resume">Resume</a>
+          <a class="navbar" href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+    
+    
+    <video src="images/backgrond.mp4" muted loop autoplay></video>
+
+    <div class="overlay"></div>
+
+    <div class="text">
+      <h2 style="font-family: Arial; font-size: 70px; font-weight: bold;">J Tharaka</h2>
+      <h3 style="font-family: Verdana; font-size: 25px; font-style: italic;">Software Engineer</h3>
+       <p style="font-family: Times New Roman; font-size: 20px;">M-Tech Integrated at Vellore Institute of Technology vellore.</p>
+
+
+      <br>
+
+      </br>
+      <a href="Pdf/J.Tharaka_Resume.pdf" download>Download Resume</a>
+    </div>
+
+    <ul class="social">
+      <li><a href="#contact"><img style="filter:invert(100%)" src="images/linkedin.png" alt=""></a></li>
+      <li><a href="#contact"><img style="filter:invert(100%)" src="images/gmail.png" alt="";></a></li>
+      <p>Mobile:+91  8008162514</p>
+    </ul>
+
+  </section>
+
+ 
+
+  <section class="about">
+    <h2 class="reveal" id="about">Profile</h2>
+    <div class="line reveal"></div>
+    <div class="about-content">
+      <div class="column left">
+        <img class="small-image" src="images/me.jpg" alt="">
+
+        <ul>
+          <li class="info reveal"><b style="color: #4169E1">Full Name:</b> J Tharaka</li>
+          <li class="info reveal"><b style="color: #4169E1">Location:</b> Bangalore,India</li>
+          <li class="info reveal"><b style="color: #4169E1">Email:</b> tharakesh1225@gmail.com</li>
+        </ul>
+      </div>
+      <div class="column right">
+        <p class="para reveal">Highly motivated and enthusiastic individual with a strong passion for learning and adopting new technologies. 
+          Eager to expand my knowledge and skills to contribute effectively in a dynamic and evolving professional environment. Possess a proactive mindset and a strong drive to excel in my field. Committed to personal and professional growth, constantly seeking opportunities to enhance my expertise. A quick learner with a demonstrated ability to adapt to change and embrace challenges. Strong communication and interpersonal skills,
+           allowing for effective collaboration and teamwork. Seeking a role that will enable me to leverage my passion for technology and dedication to continuous learning.</h2>
+        
+        <p>java</p>
+        <div class="container skillbar">
+          <div class="skills c skillbar">75%</div>
+        </div>
+
+        <p>Web Development</p>
+        <div class="container skillbar">
+          <div class="skills html skillbar">85%</div>
+        </div>
+        
+        <p>c#</p>
+        <div class="container skillbar">
+          <div class="skills java skillbar">75%</div>
+        </div>
+
+        <p>sql & scripting</p>
+        <div class="container skillbar">
+          <div class="skills python skillbar">65%</div>
+        </div>
+        <br/> <br/> <br/> <br/> <br/>
+      </div>
+    </div>
+    <div class="curve">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+      </svg>
+    </div>
+  </section>
+
+  <section class="projects">
+    <h3 class="reveal" id="projects">Projects</h3>
+    <div class="line reveal"></div>
+    <div class="row">
+      <div class="column reveal">
+        <div class="content">
+          <img class="img" src="images/Iot.jpg" alt="" style="width:100%">
+          <h2>IOT BASED SMART PARKING </h2>
+          <p style="color: black;">IoT-based smart parking utilizes sensors and connectivity to provide real-time information about parking space
+             availability, enabling efficient parking management and reducing congestion. </p>
+          <a href="pdf/IOT BASED SMART PARKING .pdf" class="button" target="_blank">Open File</a>
+        </div>
+      </div>
+      <div class="column reveal">
+        <div class="content">
+          <img class="img" src="images/card.jpg" alt="" style="width:100%">
+          <h2>SECURE CARD PAYMENT</h2>
+          <p style="color: black;">Secure card payment employs encryption and authentication protocols to safeguard sensitive cardholder information,
+             ensuring secure transactions and protecting against fraud.</p>
+          <a href="Pdf/SECURE CARD PAYMENT.pdf" class="button" target="_blank">Open File</a>
+        </div>
+      </div>
+      <div class="column reveal">
+        <div class="content">
+          <img class="img" src="images/authentication.jpg" alt="" style="width:100%">
+          <h2>THREE LEVEL AUTHENTICATION FOR LOGIN PAGE </h2>
+          <p style="color: black;">Three-level authentication for a login page typically involves verifying the user's credentials 
+            (username and password), followed by additional factors such as clour based and image segmentation.</p>
+          <a href="Pdf/THREE LEVEL AUTHENTICATION FOR LOGIN PAGE.pdf" class="button" target="_blank">Open File</a>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+    <div class="spacer layer1"></div>
+  </section>
+
+  <section class="resume">
+    <h2 class="reveal restitle" id="resume">Resume</h2>
+    <div class="line reveal"></div>
+    <h3 class="reveal ressubtitle"> My Credentials </h3>
+    <div class="container">
+      <main class="row">
+        <section class="col">
+          <header class="title">
+            <h2>EDUCATION</h2>
+          </header>
+          <div class="contents">
+            <div class="box">
+              <h4>Sep 2018 - Apr 2023</h4>
+              <h3>M-Tech software Engineering Intergrated</h3>
+              <p class="subtext">Vellore Institute of Technology ,vellore</p>
+              <ul>
+                <li>GPA: 8.2</li>
+                <li>Software engineering</li>
+              </ul>
+            </div>
+
+            <div class="box">
+              <h4>Sep 2016 - Jun 2018</h4>
+              <h3>Board of Intermediate Education, Andhra Pradesh</h3>
+              <p class="subtext">Sri Chaitanya Junior College, Chittoor</p>
+              <ul>
+                <li>Grade: 93.1%</li>
+                <li>MPC</li>
+              </ul>
+            </div>
+            <div class="box">
+              <h4>Sep 2015 - Jun 2016</h4>
+              <h3>Secondary board of Education,Andhra Pradesh</h3>
+              <p class="subtext">R K Model School, Chittoor</p>
+              <ul>
+                <li>Grade: 88%</li>
+                <li>10th</li>
+              </ul>
+            </div>
+
+          </div>
+        </section>
+
+        <section class="col">
+          <header class="title">
+            <h2>EXPERIENCE</h2>
+          </header>
+          <div class="contents">
+            <div class="box">
+              <h4>Sep 2023 - Present</h4>
+              <h3> Philips India – intern/Trainee</h3>
+              <p class="subtext">Research and Development</p>
+              <ul>
+                <li>Languages: C#</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </main>
+    </div>
+    <br/> <br/>
+    <div class="curve2">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+        <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+      </svg>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2 id="contact" class="title reveal">Contact</h2>
+    <br/>
+    <div class="row">
+      <div class="column reveal">
+        <div class="content">
+          <h2><u>LinkedIn</u></h2>
+          <p>Check out my LinkedIn account!</p>
+          <a href="https://www.linkedin.com/in/tharakalkndln/" class="button" target="_blank">LinkedIn <img class="logo" src="linkedin.png" alt=""></a>
+        </div>
+      </div>
+      <div class="column reveal">
+        <div class="content">
+          <h2><u>Gmail</u></h2>
+          <p>Send me an email!</p>
+          <a href="mailto: tharakesh1225@gmail.com" class="button" target="_blank">Gmail <img class="logo" src="gmail.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+    <br/>
+    <br/> 
+  </section>
+
+  <div class="loader-wrapper">
+    <div class="loader">
+      <div class="inner one"></div>
+      <div class="inner two"></div>
+      <div class="inner three"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
