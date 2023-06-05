@@ -344,9 +344,9 @@ nav a {
   background-color: transparent;
   letter-spacing: 4px;
   font-size: 20px;
-  margin-top: auto;
+  margin-top: 20px;
     margin-right: auto;
-    margin-bottom: auto;
+    margin-bottom: 30px;
     margin-left: 30px;
   color: #fff;
 }
