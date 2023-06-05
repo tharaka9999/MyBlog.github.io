@@ -341,7 +341,7 @@ nav {
 nav a {
   text-decoration: none;
   font-family: "Staatliches";
-  background: #262626;
+  background-color: transparent;
   letter-spacing: 4px;
   font-size: 20px;
   margin: 0 30px;
