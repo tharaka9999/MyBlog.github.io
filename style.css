@@ -473,7 +473,7 @@ nav a {
 
 .small-image {
   width: 250px;
-  height: 200px;
+  height: 320px !important;
   border-radius: 20%;
 }
 
