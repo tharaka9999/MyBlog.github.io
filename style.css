@@ -1172,3 +1172,7 @@ nav a {
   }
 }
 
+.column.left {
+  position: relative;
+ 
+}
